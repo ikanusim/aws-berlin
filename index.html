@@ -1,49 +1,133 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="favicon.ico" >
-<link href="/favicon.ico" rel="shortcut icon" />
-<title>AWS User Group Berlin</title>
-<style type="text/css">
-<!--
-body {
-	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	background: #FFF;
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
-	padding: 0;
-	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
-	color: #000000;
-}
-.oneColLiqCtr #container {
-	width: 80%;  /* this will create a container 80% of the browser width */
-	background: #FFFFFF;
-	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
-	border: none;
-	text-align: center; /* this overrides the text-align: center on the body element. */
-}
-.oneColLiqCtr #mainContent {
-	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
-}
--->
-</style></head>
+  <meta charset="utf-8">
 
-<body class="oneColLiqCtr">
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<div id="container">
-  <div id="mainContent">
-    <p><img src="AWS_LOGO_RGB.png" width="600" height="300" alt="Amazon Web Services Usergroup Berlin" /></p>
-    <h1>AWS User Group Berlin</h1>
-    
-    <h2>Nächstes Treffen am Di, 05.10.2010, 19:00 Uhr</h2>
-    <p>Ort: co.up, Adalbertstr. 7-8, 10999 Berlin, Deutschland</p>
-    <p><a href="https://www.xing.com/events/aws-user-group-berlin-551385">Details zum nächsten Treffen und Anmeldung</a></p>
-    
-    <p>Archiv der AWS User Group Berlin Mailing-Liste<br />
-      <a href="http://groups.google.com/group/aws-berlin" tabindex="1" title="http://groups.google.com/group/aws-berlin" target="_self">http://groups.google.com/group/aws-berlin</a><br />
-  <br />
-  Oder direkt per E-Mail<br />
-  <a href="mailto:aws-berlin@googlegroups.com">aws-berlin@googlegroups.com</a></p>
-</div></div>
+  <title>AWS Berlin</title>
+  <meta name="description" content="AWS user groups and hackathons in Berlin">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <header>
+  </header>
+
+  <div id="main" role="main">
+    <section id="hack">
+      <h1>The Hack</h1>
+      <p>Build a working demo of something cool with AWS. This can be anything you want, e.g. a web or mobile app, interactive UI, or big data tool.</p>
+    </section>
+    <section id="rules">
+      <h1>The Rules</h1>
+      <p>
+        <ul>
+          <li>Form a team of 2 - 4 hackers. (You can do this on site)</li>
+          <li>Each team has 20 hours to go from idea to working code.</li>
+          <li>All teams must present a 3-minute working demo on Saturday.</li>
+          <li>Anarchy rules – No limit on API, language or ideas. Come up with something awe-inspiring!</li>
+        </ul>
+      </p>
+    </section>
+    <section id="agenda">
+      <h1>The Agenda</h1><br/>
+      <p>
+        <strong>Don't worry we will have your football needs covered.</strong>
+      </p>
+      <h2>Friday 22snd June 2012</h2>
+      <p>
+        <ul>
+          <li>09:30 – 10:00 Team check-in</li>
+          <li>10:00 – 10:30 Welcome presentation</li>
+          <li>10:30 – 11:30 AWS input presentation</li>
+          <li>11:30 – 12:00 Hackathon guidelines & presentation tips</li>
+          <li>12:00 – 13:00 Lunch break</li>
+          <li>13:00 – 09:00 (overnight to Saturday 31st March) Hack!</li>
+        </ul>
+      </p>
+      <h2>Saturday 23rd June 2012</h2>
+      <p>
+        <ul>
+          <li>09:00 – 10:00 Stop hacking & eat breakfast</li>
+          <li>10:00 – 11:30 Presentations (3 minutes per team) & judging</li>
+          <li>11:30 – 12:00 Prizes</li>
+        </ul>
+      </p>
+    </section>
+    <section id="location">
+      <h1>Location</h1>
+      <p>
+        Amazon Berlin Office<br/>
+        Karl-Liebknecht-Str. 5<br/>
+        10178 Berlin, Germany
+      </p>
+      <iframe width="420" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=karl+liebknechtstra%C3%9Fe+5+berlin&amp;aq=&amp;sll=52.519821,13.403401&amp;sspn=0.002305,0.004061&amp;ie=UTF8&amp;hq=&amp;hnear=Karl-Liebknecht-Stra%C3%9Fe+5,+Mitte+10178+Berlin,+Germany&amp;t=m&amp;ll=52.519407,13.403921&amp;spn=0.015668,0.047979&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=karl+liebknechtstra%C3%9Fe+5+berlin&amp;aq=&amp;sll=52.519821,13.403401&amp;sspn=0.002305,0.004061&amp;ie=UTF8&amp;hq=&amp;hnear=Karl-Liebknecht-Stra%C3%9Fe+5,+Mitte+10178+Berlin,+Germany&amp;t=m&amp;ll=52.519407,13.403921&amp;spn=0.015668,0.047979&amp;z=14" style="color:#373737;text-align:left">View Larger Map</a></small>
+    </section>
+    <section id="bring">
+      <h1>What to bring</h1>
+      <p>
+        <ul>
+          <li>A personal laptop.</li>
+          <li>There will be constant snacks n’ drinks available.  Amazon will do a pizza run on Friday evening and provide breakfast Saturday morning.</li>
+          <li>However bring a couple of Euros for ice cream and lunch on Friday; this is going to be a hard day’s night.</li>
+          <li>Do your best boy/girl scout impression and bring some spare clothes alongside a spruce kit, or at least a stick of deodorant and some gum. Old school pens and a pad might not go amiss either.</li>
+          <li>Some music to code to and a machine to play it. Alternatively, headphones to cut out ambient music/noise.</li>
+          <li>Ideas! Brains will be stormed on the day, but think about what lights your fire – remember the aim is to build a working demo of something cool with AWS.</li>
+        </ul>
+      </p>
+    </section>
+    <section id="win">
+      <h1>What to win!</h1>
+      <p>
+        <ul>
+          <li>1st Place: 1.000 € AWS credit to continue on your projects</li>
+          <li>2nd Place: A Kindle for each member of your team</li>
+          <li>3rd Place: An Arduino Starter Kit for each team member to continue hacking</li>
+        </ul>
+      </p>
+      <a class="button" href="http://aws.amazon.com/campaigns/the-hack-berlin/">SignUp for the hackathon now</a>
+    </section>
+
+
+  </div>
+  <footer>
+
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+
+  <!-- end scripts -->
 </body>
 </html>
